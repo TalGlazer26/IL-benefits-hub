@@ -17,7 +17,7 @@ export default function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [showPasswordPrompt, setShowPasswordPrompt] = useState(false);
 
-  const categories = [...new Set(items.map(i => i.category))];
+const categories = [...new Set(items.map(i => i.category))];
   
   const filteredItems = items.filter(item =>
     item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
