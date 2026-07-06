@@ -202,9 +202,9 @@ export default function App() {
                     {item.description}
                   </p>
                 </div>
-                <a href="#" onClick={(e) => e.preventDefault()} style={{ fontSize: '13px', color: '#FEE000', textDecoration: 'none', fontWeight: 600, marginTop: '12px' }}>
+                <button onClick={() => handleViewDetail(item)} style={{ fontSize: '13px', color: '#FEE000', background: 'none', border: 'none', textDecoration: 'none', fontWeight: 600, marginTop: '12px', cursor: 'pointer', padding: 0, textAlign: 'left' }}>
                   View details →
-                </a>
+                </button>
               </div>
             ))}
           </div>
@@ -253,9 +253,9 @@ export default function App() {
                     {item.description}
                   </p>
                 </div>
-                <a href="#" onClick={(e) => e.preventDefault()} style={{ fontSize: '13px', color: '#FEE000', textDecoration: 'none', fontWeight: 600, marginTop: '12px' }}>
+                <button onClick={() => handleViewDetail(item)} style={{ fontSize: '13px', color: '#FEE000', background: 'none', border: 'none', textDecoration: 'none', fontWeight: 600, marginTop: '12px', cursor: 'pointer', padding: 0, textAlign: 'left' }}>
                   View details →
-                </a>
+                </button>
               </div>
             ))}
           </div>
