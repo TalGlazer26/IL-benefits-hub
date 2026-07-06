@@ -166,18 +166,20 @@ export default function App() {
           backgroundPosition: 'center',
           padding: '2rem 2rem 4rem 2rem',
           position: 'relative',
-          minHeight: '350px',
+          minHeight: '450px',
           display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'space-between'
+          flexDirection: 'column'
         }}>
           {/* Logo - Top Left */}
           <div style={{ alignSelf: 'flex-start' }}>
             <img src="/Logo.png" alt="Personetics" style={{ height: '40px' }} />
           </div>
 
+          {/* Spacer - pushes content down */}
+          <div style={{ flex: 1 }} />
+
           {/* Content - Main Area */}
-          <div style={{ maxWidth: '1200px', margin: '0 auto', position: 'relative', zIndex: 2, width: '100%', marginTop: '4rem' }}>
+          <div style={{ maxWidth: '1200px', margin: '0 auto', position: 'relative', zIndex: 2, width: '100%' }}>
             {/* Country Flag + Name */}
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.5rem', fontSize: '18px', fontWeight: 600, color: '#fff' }}>
               <img src="/il flag.png" alt="Israel flag" style={{ height: '32px' }} />
