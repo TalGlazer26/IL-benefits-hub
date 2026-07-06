@@ -171,9 +171,9 @@ export default function App() {
           flexDirection: 'column',
           justifyContent: 'space-between'
         }}>
-          {/* Logo - Top Right */}
+          {/* Logo - Top Left */}
           <div style={{ alignSelf: 'flex-end' }}>
-            <img src="/Logo.png" alt="Personetics" style={{ height: '40px' }} />
+            <img src="/Logo.png" alt="Personetics" style={{ height: '36px' }} />
           </div>
 
           {/* Content - Main Area */}
