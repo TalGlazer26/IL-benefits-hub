@@ -26,12 +26,15 @@ export default function App() {
   const [items, setItems] = useState([
     { 
       id: 1, 
-      type: 'benefit',
+      type: 'policy',
       category: 'Time Off', 
       title: 'Time Off & Leave', 
       description: 'Time to rest & recharge',
-      details: 'Some deatile about your paid vacation annually. Plus flexible work arrangements and mental health days.',
-      color: '#fee000'
+      details: 'Time to recharge!
+        Our Time-Off Policy brings together everything you need to know about taking time away from work.
+        From vacation and sick leave to special paid leave for life's meaningful moments, like welcoming a new child or getting married.
+        Because taking care of yourself matters, too..',
+      color: '#6be084'
     },
     { 
       id: 2, 
