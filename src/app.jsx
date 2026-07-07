@@ -37,15 +37,21 @@ You'll receive annual vacation days based on your employment terms, with the fle
 We also know life happens – so we've got you covered with paid sick leave, special days for weddings, parental support leave, and more. If you're ever unsure about what you're eligible for or have special circumstances, just reach out to your HRBP or Total Rewards team. We're here to help make it work for you.`,
       color: '#6be084'
     },
-    { 
-      id: 2, 
-      type: 'benefit',
-      category: 'Perks', 
-      title: 'Maternity & Paternity', 
-      description: 'Expanding your family',
-      details: 'Up to 4 months paid parental leave. Flexible return-to-work options and childcare support.',
-      color: '#d9d9d9'
-    },
+{ 
+  id: 2, 
+  type: 'benefit',
+  category: 'Perks', 
+  title: 'Maternity & Paternity', 
+  description: 'Expanding your family',
+  details: `If you're the non-birthing partner welcoming a new child, we want to make sure you have the time and support you need to celebrate and bond with your new family member.
+
+We offer 10 paid working days of parental leave for non-birthing partners – 5 days immediately following the birth or arrival of your child, and an additional 5 days flexible within the first year. This applies whether you're welcoming a biological child, adopting, or becoming a parent through surrogacy.
+
+Beyond time off, we also provide a special birth gift worth ₪450 – choose between a curated gift package or a gift card to pick what works best for your family.
+
+To request your parental leave, just notify your manager and contact your HRBP to record it in Hibob. They're here to help make this transition as smooth as possible.`,
+  color: '#d9d9d9'
+},
     { 
       id: 3, 
       type: 'benefit',
