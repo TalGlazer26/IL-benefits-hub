@@ -71,15 +71,25 @@ If you ever need help with your meal benefit account or have questions about you
 [Policy link]`,
   color: '#19bbee'
 },
-    { 
-      id: 4, 
-      type: 'policy',
-      category: 'Travel',
-      title: 'Travel Policy', 
-      description: 'Rules and reimbursements for business travel',
-      details: 'Rules and reimbursements for business travel. Economy flights, hotel reimbursement up to ₪400/night.',
-      color: '#d9d9d9'
-    },
+{ 
+  id: 4, 
+  type: 'policy',
+  category: 'Travel',
+  title: 'Travel Policy', 
+  description: 'Rules and reimbursements for business travel',
+  details: `Business travel is an important part of our growth, and we want to make sure you travel comfortably and confidently.
+
+We've got you covered with flights booked in economy class by default – and if you've completed three long-haul trips in the past 12 months, you can enjoy premium options for flights over 8 hours. Hotels are pre-approved at destination-specific rates, whether you're heading to London, Singapore, or staying within Israel. Your meals are covered through daily per diem allowances based on your travel region.
+
+All your travel is protected with comprehensive travel insurance, and our travel team handles everything – from booking your flights and accommodations to managing any changes that come up. When you need to claim your expenses, simply submit your receipts through Nexonia and we'll take care of the rest.
+
+Have questions about rates, need to modify a booking, or run into an issue while traveling? Our travel coordinator and Amsalem Tours team are available 24/7 to support you.
+
+---
+
+For a complete overview of all terms and conditions, please refer to the full policy.`,
+  color: '#d9d9d9'
+},
 { 
   id: 5, 
   type: 'benefit',
