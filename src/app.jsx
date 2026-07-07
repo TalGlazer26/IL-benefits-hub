@@ -125,7 +125,7 @@ To request your wedding leave, just notify your manager and contact your HRBP to
     { 
   id: 7, 
   type: 'policy',
-  category: 'Perks', 
+  category: 'Referral Program', 
   title: 'Employee Referral Program', 
   description: 'Get rewarded for great referrals',
   details: `Great people know great people. If you've got a talented friend or colleague who'd be perfect for Personetics, we want to hear about them – and we'll reward you for it!
