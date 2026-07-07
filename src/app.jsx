@@ -45,22 +45,28 @@ We also know life happens – so we've got you covered with paid sick leave, spe
   description: 'Expanding your family',
   details: `If you're the non-birthing partner welcoming a new child, we want to make sure you have the time and support you need to celebrate and bond with your new family member.
 
-We offer 10 paid working days of parental leave for non-birthing partners – 5 days immediately following the birth or arrival of your child, and an additional 5 days flexible within the first year. This applies whether you're welcoming a biological child, adopting, or becoming a parent through surrogacy.
+We offer 10 paid working days of parental leave for non-birthing partners - 5 days immediately following the birth or arrival of your child, and an additional 5 days flexible within the first year. This applies whether you're welcoming a biological child, adopting, or becoming a parent through surrogacy.
 
-Beyond time off, we also provide a special birth gift worth ₪450 – choose between a curated gift package or a gift card to pick what works best for your family.
+Beyond time off, we also provide a special birth gift worth ₪520 – choose between a curated gift package or a gift card to pick what works best for your family.
 
 To request your parental leave, just notify your manager and contact your HRBP to record it in Hibob. They're here to help make this transition as smooth as possible.`,
   color: '#d9d9d9'
 },
-    { 
-      id: 3, 
-      type: 'benefit',
-      category: 'Perks', 
-      title: '₪1000 Monthly Food', 
-      description: 'Daily food & dining coverage',
-      details: 'Daily food and dining covered via Cibus. Order lunch or dinner to your office or home.',
-      color: '#19bbee'
-    },
+{ 
+  id: 3, 
+  type: 'benefit',
+  category: 'Perks', 
+  title: '₪1000 Monthly Food Allowance', 
+  description: 'Daily food & dining coverage',
+  details: `We know that everyone deserves a good meal, and we want to make sure you're taken care of during your workday. We provide every employee with a monthly meal allowance of ₪1000 to cover your food and dining expenses.
+
+You have the flexibility to choose from three popular meal platforms: Cibus, Ten Bis, or Wolt Benefits – each offering access to a wide network of restaurants, cafés, supermarkets, and food retailers across Israel. You can pick the platform that best suits your preferences and lifestyle.
+
+Your ₪1000 allowance is loaded on the 21st of each month and runs through the 20th of the following month. You can change your chosen platform up to twice per year if you'd like to switch things up.
+
+If you ever need help with your meal benefit account or have questions about your platform options, just reach out to our Employee Experience & Operations Team at Perso_Operations@personetics.com.`,
+  color: '#19bbee'
+},
     { 
       id: 4, 
       type: 'policy',
@@ -97,6 +103,21 @@ To request your parental leave, just notify your manager and contact your HRBP t
       details: 'How to report and get reimbursed for work-related expenses. Submit within 30 days with receipts.',
       color: '#6be084'
     },
+{ 
+  id: 8, 
+  type: 'benefit',
+  category: 'Perks', 
+  title: 'Wedding', 
+  description: 'Celebrate your special day',
+  details: `Congratulations on your upcoming wedding! We're thrilled to celebrate this special milestone with you.
+
+To help you make the most of your big day, we offer three (3) paid working days of wedding leave. You can use these days around your wedding celebrations and related events, anytime within a month of your wedding date.
+
+In addition to your time off, we're also sending our best wishes with a wedding gift of ₪1500 added to your salary – our way of saying we're happy for you.
+
+To request your wedding leave, just notify your manager and contact your HRBP to record it in Hibob. They'll make sure everything is set up so you can focus on celebrating.`,
+  color: '#fee000'
+},
   ];
 
   const [items, setItems] = useState(defaultItems);
