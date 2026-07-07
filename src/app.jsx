@@ -74,15 +74,6 @@ If you ever need help with your meal benefit account or have questions about you
     { 
       id: 4, 
       type: 'policy',
-      category: 'Global',
-      title: 'Global Relocation Policy', 
-      description: 'Support for employees relocating',
-      details: 'Support and guidelines for employees relocating globally. Includes visa assistance, accommodation support, and relocation allowance.',
-      color: '#fee000'
-    },
-    { 
-      id: 5, 
-      type: 'policy',
       category: 'Travel',
       title: 'Travel Policy', 
       description: 'Rules and reimbursements for business travel',
@@ -90,10 +81,10 @@ If you ever need help with your meal benefit account or have questions about you
       color: '#d9d9d9'
     },
 { 
-  id: 6, 
+  id: 5, 
   type: 'benefit',
   category: 'IT', 
-  title: 'IT Home Equipment Policy', 
+  title: 'Work From Home Support', 
   description: 'Everything you need to work from home',
   details: `Working from home is great – but it's even better when you have the right tools to do it comfortably and effectively. That's why we provide home office equipment to help you set up a productive workspace.
 
@@ -105,17 +96,8 @@ If anything needs repair or replacement due to normal wear and tear, we've got y
 [Policy link]`,
   color: '#6be084'
 },
-    { 
-      id: 7, 
-      type: 'policy',
-      category: 'Expenses',
-      title: 'Expense Reporting Policy', 
-      description: 'How to report work-related expenses',
-      details: 'How to report and get reimbursed for work-related expenses. Submit within 30 days with receipts.',
-      color: '#6be084'
-    },
 { 
-  id: 8, 
+  id: 6, 
   type: 'benefit',
   category: 'Perks', 
   title: 'Wedding Celebration', 
@@ -131,7 +113,7 @@ To request your wedding leave, just notify your manager and contact your HRBP to
   color: '#fee000'
 },
     { 
-  id: 9, 
+  id: 7, 
   type: 'policy',
   category: 'Perks', 
   title: 'Employee Referral Program', 
